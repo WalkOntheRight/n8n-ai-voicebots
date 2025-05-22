@@ -1,11 +1,10 @@
 services:
   - type: web
-    name: n8n-minimal
+    name: n8n-voicebot
     env: docker
     plan: starter
-    repo: https://github.com/WalkOnTheRight/n8n-ai-voicebots
     branch: main
-    dockerfilePath: Dockerfile
+    dockerfilePath: ./Dockerfile
     envVars:
       - key: N8N_BASIC_AUTH_ACTIVE
         value: true
@@ -18,4 +17,4 @@ services:
       - key: N8N_PORT
         value: 5678
       - key: WEBHOOK_TUNNEL_URL
-        value: https://n8n-minimal.onrender.com
+        value: https://n8n-voicebot.onrender.com
