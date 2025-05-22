@@ -1,6 +1,4 @@
 FROM n8nio/n8n
 
-# Expose default n8n port
+# Optional: Expose default port
 EXPOSE 5678
-
-CMD ["n8n"]
