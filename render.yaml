@@ -3,7 +3,7 @@ services:
     name: n8n-minimal
     env: docker
     plan: starter
-    repo: repo: https://github.com/WalkOnTheRight/n8n-ai-voicebots
+    repo: https://github.com/WalkOnTheRight/n8n-ai-voicebots
     branch: main
     dockerfilePath: Dockerfile
     envVars:
